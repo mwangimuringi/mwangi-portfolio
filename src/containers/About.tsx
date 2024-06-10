@@ -31,7 +31,7 @@ const About = () => {
             Fast-forward to today, and I’ve had the privilege of working at a
             start-up -{' '}
             <Link
-              href="https://www.jhubafrics.live/"
+              href="https://www.jhubafrica.live/"
               target="_blank"
               className="text-accent"
             >

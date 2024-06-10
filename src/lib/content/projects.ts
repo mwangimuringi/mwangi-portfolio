@@ -36,7 +36,7 @@ export const projectsSection: ProjectsSectionType = {
         id: getId(),
         name: 'remotive jobs',
         url: 'https://remotive-jobs.vercel.app/',
-        repo: 'https://github.com/vatsalsinghkv/remotive-jobs',
+        repo: 'https://github.com/mwangimuringi/remotive-portfolio',
         img: 'https://user-images.githubusercontent.com/68834718/189035104-aa71647e-33e4-442a-a2f9-c0d50bba2db1.png',
         year: 2022,
         tags: ['Nextjs', 'Sass'],

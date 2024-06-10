@@ -9,9 +9,9 @@ import { StringKeyValueType } from '../types';
 export const socialLinks: StringKeyValueType = {
   facebook: 'https://www.facebook.com/mwangi muringi',
   instagram: 'https://www.instagram.com/juliusmwangi',
-  x: 'https://x.com/julius_mwangi',
-  github: 'https://github.com/mwangi223',
-  linkedin: 'https://www.linkedin.com/in/julius-mwangi-bba77a309/',
+  x: 'https://x.com/mwangi_muringi',
+  github: 'https://github.com/mwangimuringi',
+  linkedin: 'https://www.linkedin.com/in/mwangimuringi/',
 };
 
 export const author = {
