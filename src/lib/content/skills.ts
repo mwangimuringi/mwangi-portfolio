@@ -35,7 +35,7 @@ export const skillsSection: SkillsSectionType = {
         { name: 'tailwindcss', icon: 'logos:tailwindcss-icon' },
         { name: 'springboot', icon: 'logos:spring-icon' },
         { name: 'database', icon: 'vscode-icons:file-type-sql' },
-        { name: 'postgreSQL', icon: 'logos:postgre-icon' },
+        { name: 'postgreSQL', icon: 'logos:postgres-icon' },
       ],
     },
     {
