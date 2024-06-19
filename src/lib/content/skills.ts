@@ -15,7 +15,7 @@ export const skillsSection: SkillsSectionType = {
       points: [
         'Building responsive static websites using Next.js',
         'Building responsive Single Page Apps in React.js',
-        'Building responsive Web Page Apps in Java Springboot',
+        'Building responsive Web Page Apps in Spring and Springboot',
         'Building RESTful APIs in Servlets and jps',
         'Building RESTful APIs in Express',
       ],
