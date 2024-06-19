@@ -33,7 +33,7 @@ export const skillsSection: SkillsSectionType = {
         { name: 'nextjs', icon: 'logos:nextjs-icon' },
         // { name: 'angularjs', icon: 'logos:angular-icon' },
         { name: 'tailwindcss', icon: 'logos:tailwindcss-icon' },
-        { name: 'springboot', icon: 'logos:springboot-icon' },
+        { name: 'springboot', icon: 'logos:spring-icon' },
         { name: 'database', icon: 'vscode-icons:file-type-sql' },
         { name: 'postgreSQL', icon: 'logos:postgre-icon' },
       ],
