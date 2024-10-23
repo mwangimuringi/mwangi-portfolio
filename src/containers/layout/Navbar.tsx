@@ -17,7 +17,7 @@ import { useEffect, useState } from 'react';
  * @param {Object} config
  * @param {String} [config.id=navbar] - id of navbar
  * @param {Number} [config.offset=100] - offset of navbar in px
- */
+ **/
 
 const hideNavWhileScrolling = ({
   id = 'navbar',
