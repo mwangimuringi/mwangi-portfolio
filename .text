@@ -1,0 +1,81 @@
+.
+├── CONTRIBUTING.md
+├── LICENSE
+├── README.md
+├── next-env.d.ts
+├── next.config.js
+├── package.json
+├── postcss.config.js
+├── src
+│   ├── app
+│   │   ├── layout.tsx
+│   │   ├── not-found.tsx
+│   │   └── page.tsx
+│   ├── components
+│   │   ├── buttons
+│   │   │   ├── Button.tsx
+│   │   │   ├── DarkModeButton.tsx
+│   │   │   ├── Link.tsx
+│   │   │   └── NavButton.tsx
+│   │   ├── index.ts
+│   │   ├── lists
+│   │   │   ├── ListItem.tsx
+│   │   │   └── TabList.tsx
+│   │   ├── skills
+│   │   │   ├── Skill.tsx
+│   │   │   └── SkillIcon.tsx
+│   │   ├── socials
+│   │   │   ├── SocialIcon.tsx
+│   │   │   └── SocialLink.tsx
+│   │   └── ui
+│   │       ├── AuthorImage.tsx
+│   │       ├── Cursor.tsx
+│   │       ├── FeaturedProject.tsx
+│   │       ├── ProjectCard.tsx
+│   │       ├── ShowLottie.tsx
+│   │       ├── Sidebar.tsx
+│   │       └── Wrapper.tsx
+│   ├── containers
+│   │   ├── About.tsx
+│   │   ├── Contact.tsx
+│   │   ├── Email.tsx
+│   │   ├── Experience.tsx
+│   │   ├── FeaturedProjects.tsx
+│   │   ├── Hero.tsx
+│   │   ├── Projects.tsx
+│   │   ├── Skills.tsx
+│   │   ├── Social
+│   │   │   ├── SocialLinks.tsx
+│   │   │   └── index.tsx
+│   │   ├── index.ts
+│   │   └── layout
+│   │       ├── Footer.tsx
+│   │       ├── Layout.tsx
+│   │       └── Navbar.tsx
+│   └── lib
+│       ├── content
+│       │   ├── about.ts
+│       │   ├── contact.ts
+│       │   ├── experience.ts
+│       │   ├── featured-projects.ts
+│       │   ├── footer.ts
+│       │   ├── hero.ts
+│       │   ├── navbar.ts
+│       │   ├── portfolio.ts
+│       │   ├── projects.ts
+│       │   ├── skills.ts
+│       │   └── social.ts
+│       ├── hooks
+│       │   ├── use-theme.tsx
+│       │   └── use-window-width.tsx
+│       ├── types
+│       │   ├── index.ts
+│       │   └── sections.ts
+│       └── utils
+│           ├── config.ts
+│           ├── fonts.ts
+│           └── helper.ts
+├── tailwind.config.js
+├── text
+├── tsconfig.json
+└── yarn.lock
