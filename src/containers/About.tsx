@@ -24,14 +24,22 @@ const About = () => {
       <main className="flex flex-col items-center gap-16 lg:items-start lg:flex-row">
         <div className="space-y-4 lg:w-3/5">
           <p>
-            Hi, my name is Julius Mwangi, a frontend web developer, java developer and
-            Android developer who wants to explore every tech stack.
+            Hi, my name is Julius Mwangi, a tech student from
+            <Link
+              href="https://jkuat.ac.ke/"
+              target="_blank"
+              className="text-accent"
+            >
+              JKUAT university
+            </Link>
+            .<br /> I'm a full stack web developer who wants to explore every
+            tech stack.
           </p>
           <p>
             Fast-forward to today, and I’ve had the privilege of working at a
             start-up -{' '}
             <Link
-              href="https://www.jhubafrica.live/"
+              href="https://www.jhubafrica.com/"
               target="_blank"
               className="text-accent"
             >
@@ -40,8 +48,8 @@ const About = () => {
             .
           </p>
           <p>
-            My main focus these days is learning mobile development and finding
-            a decent job.
+            My main focus these days is collaborating on web development and
+            finding a decent job.
           </p>
 
           {list && (
