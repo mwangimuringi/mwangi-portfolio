@@ -17,7 +17,7 @@ import { useEffect, useState } from 'react';
  * @param {Object} config
  * @param {String} [config.id=navbar] - id of navbar
  * @param {Number} [config.offset=100] - offset of navbar in px
- **/
+ */
 
 const hideNavWhileScrolling = ({
   id = 'navbar',
@@ -31,11 +31,11 @@ const hideNavWhileScrolling = ({
   const nav = document.getElementById(id);
   if (!nav) return;
 
-  let prevScrollPos = window.scrollY;
+  let prevScrollPos = window.pageYOffset;
 
   window.onscroll = () => {
     if (when) {
-      const curScrollPos = window.scrollY;
+      const curScrollPos = window.pageYOffset;
       if (prevScrollPos < curScrollPos) nav.style.top = `-${offset}px`;
       else nav.style.top = '0';
       prevScrollPos = curScrollPos;
@@ -92,7 +92,7 @@ const Navbar = () => {
       className="fixed inset-x-0 top-0 right-0 z-50 flex items-end justify-between px-8 py-4 duration-500 md:px-6 xl:px-12 backdrop-blur-lg"
     >
       <h1 className="relative text-2xl capitalize font-signature text-accent group top-1">
-        <Link href="/hero" className="block">
+        <Link href="/#hero" className="block">
           {author.name}
           <div className="absolute bottom-1.5 left-0 h-[1px] w-0 group-hover:w-full bg-accent duration-300"></div>
         </Link>
