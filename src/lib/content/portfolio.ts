@@ -7,11 +7,11 @@
 import { StringKeyValueType } from '../types';
 
 export const socialLinks: StringKeyValueType = {
-  facebook: 'https://www.facebook.com/mwangi muringi',
+  facebook: 'https://www.facebook.com/mwangimuringi',
   instagram: 'https://www.instagram.com/juliusmwangi',
   x: 'https://x.com/mwangi_muringi',
   github: 'https://github.com/mwangimuringi',
-  linkedin: 'https://www.linkedin.com/in/mwangimuringi/',
+  linkedin: 'https://www.linkedin.com/in/mwangi_muringi/',
 };
 
 export const author = {
@@ -26,7 +26,7 @@ export const seoData = {
   author: author.name,
   image:
     'https://user-images.githubusercontent.com/68834718/217467445-0b0d2d63-f8ad-4702-8474-814eb2cbb3be.png',
-  url: 'https://vatsalsinghkv.vercel.app/',
+  url: 'https://mwangi-portfolio-sigma.vercel.app/',
   keywords: [
     'Julius',
     'Julius Mwangi',

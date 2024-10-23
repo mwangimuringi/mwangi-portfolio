@@ -2,7 +2,7 @@
   mwangimuringi.vercel.app
 </h1>
 <p align="center">
-  A portfolio website i.e. <a href="https://vatsalsinghkv.vercel.app" target="_blank">mwangimuringi.vercel.app</a> built with <a href="https://nextjs.org/" target="_blank">Next.js</a> and hosted with <a href="https://vercel.com/" target="_blank">Vercel</a>
+  A portfolio website i.e. <a href="https://mwangi-portfolio-sigma.vercel.app/" target="_blank">mwangimuringi.vercel.app</a> built with <a href="https://nextjs.org/" target="_blank">Next.js</a> and hosted with <a href="https://vercel.com/" target="_blank">Vercel</a>
 </p>
 
 <p align="center">
@@ -85,25 +85,14 @@
 
 - To change the theme, edit `src/styles/globals.css`
 
-## Contributing
-
-###### Join Our Discord: [https://discord.gg/St2dHg9YwA](https://discord.gg/St2dHg9YwA)
-
-Remember, Good PR makes you a Good contributor!
-
-1. Run the project locally, refer [how to use](#how-to-use).
-2. Follow [Contributing Guidelines](/CONTRIBUTING.md).
-
-
 <div align="center">
   <a href="https://github.com/mwangimuringi/portfolio-website/graphs/contributors">
-    <!-- <img src="https://contrib.rocks/image?repo=vatsalsinghkv/portfolio-website" /> -->
   </a>
 </div>
 
 ## Continuous Development
 
-- [x] Migrate to Next 13
+- [x] Migrate to Next 15
 - [ ] Find alternative for framer motion
 - [ ] Add Content Management System (CMS)
 - [ ] Add test cases
@@ -112,18 +101,12 @@ Remember, Good PR makes you a Good contributor!
 ## Contact
 
 <!-- - Discord - [https://discord.gg/St2dHg9YwA](https://discord.gg/St2dHg9YwA) -->
-<!-- - Website - [vatsalsinghkv.vercel.app](https://vatsalsinghkv.vercel.app) -->
+<!-- - Website - [.vercel.app](https://vatsalsinghkv.vercel.app) -->
 - Github - [@mwangimuringi](https://github.com/mwangimuringi)
 - LinkedIn - [@mwangimuringi](https://www.linkedin.com/in/mwangi_muringi/)
 - Twitter - [@mwangimuringi](https://www.twitter.com/mwangi_muringi)
 - Instagram - [@mwangimuringi](https://www.instagram.com/mwangimuringi)
 - Facebook - [@mwangimuringi](https://www.facebook.com/mwangimuringi)
-
-## Acknowledgements
-
-<!-- - [https://developer-portfolio-1hanzla100.vercel.app/](https://developer-portfolio-1hanzla100.vercel.app/) - Design Inspiration
-- [https://brittanychiang.com/](https://brittanychiang.com/) - Design Inspiration
-- [https://dev.to/andrewchmr/awesome-animated-cursor-with-react-hooks-5ec3](https://dev.to/andrewchmr/awesome-animated-cursor-with-react-hooks-5ec3) - Cursor Animation Inspiration -->
 
 ## Show Your Support
 

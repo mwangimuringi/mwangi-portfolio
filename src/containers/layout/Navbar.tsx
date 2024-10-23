@@ -31,11 +31,11 @@ const hideNavWhileScrolling = ({
   const nav = document.getElementById(id);
   if (!nav) return;
 
-  let prevScrollPos = window.pageYOffset;
+  let prevScrollPos = window.scrollY;
 
   window.onscroll = () => {
     if (when) {
-      const curScrollPos = window.pageYOffset;
+      const curScrollPos = window.scrollY;
       if (prevScrollPos < curScrollPos) nav.style.top = `-${offset}px`;
       else nav.style.top = '0';
       prevScrollPos = curScrollPos;
