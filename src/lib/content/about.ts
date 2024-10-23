@@ -1,23 +1,18 @@
-import { AboutSectionType } from '@/lib/types/sections'
+import { AboutSectionType } from '@/lib/types/sections';
 
 export const aboutSection: AboutSectionType = {
-    title: 'about me',
-    // Paragraphs need to be changed from containers/About.tsx
-    // Because it wasn't possible to insert anchor tags like this
-    list: {
+  title: 'about me',
+  list: {
     title: 'Here are a few technologies I’ve been working with recently:',
     items: [
-        'NextJs',
-        'TailwindCSS',
-        'TypeScript',
-        'CSS Animations',
-        'JavaScript',
-        'Java',
-        'Java APIs',
-        'JavaFX',
-        'SpringBoot',
-        'Unit Testing',
+      'NextJs',
+      'TailwindCSS',
+      'Shadcn Ui',
+      'Prisma',
+      'Supabase',
+      'GraphQL',
+      'CSS Animations',
     ],
-    },
-    img: '/julius.jpg',
+  },
+  img: '/julius.jpg',
 };
