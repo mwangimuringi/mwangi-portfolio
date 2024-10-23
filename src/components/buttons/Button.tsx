@@ -28,7 +28,6 @@ type Props =
       type: 'link';
     } & LinkProps);
 
-// For separating animation props from button props
 const buttonProps: Array<keyof Props | keyof LinkProps> = [
   'center',
   'children',

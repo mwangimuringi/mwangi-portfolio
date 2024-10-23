@@ -38,5 +38,4 @@ const NavButton = ({ onClick, className, navbarCollapsed }: Props) => {
   );
 };
 
-
 export default NavButton;

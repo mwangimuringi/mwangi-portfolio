@@ -21,7 +21,7 @@ const Sidebar = ({ children, className = '', side = 'left' }: Props) => {
       }`}
     >
       {children}
-      <div className="bg-slate-500 h-24 w-[2px] mt-5"></div>
+      <div className="bg-slate-500 h-24 w-0.5 mt-5"></div>
     </motion.div>
   );
 };
